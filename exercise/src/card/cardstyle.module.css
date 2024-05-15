@@ -1,0 +1,25 @@
+.card{
+    width: 20%;
+    height: 30vh;
+    /* border-top: 5px solid red/; */
+    box-shadow: 0 0 10px 1px;
+
+}
+.card:hover{
+    cursor: pointer;
+    border-top: 5px solid red;
+
+}
+.card img {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;    
+    object-fit: cover;
+    padding: 10px 30px;
+}
+.card p{
+    
+    text-align: center;
+}
